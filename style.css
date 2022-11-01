@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+    max-width: 100vh;
+    width: 100%;
+}
+
+
+ /* ---header---  */
+
+ .header {
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 0;
+}
+
+.header img {
+    height: 2rem;
+}
+
+
+.header__nav ul li{
+    display: flex;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 1);
+
+}
+/* ---hero--- */
+
+.hero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center ;
+position: absolute;
+width: 1440px;
+height: 512px;
+left: 0px;
+top: 96px;
+background: #333333;
+color: white;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.hero button {
+    padding: 1rem 2rem; 
+    border-radius: 10rem;
+}
